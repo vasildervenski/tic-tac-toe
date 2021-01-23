@@ -46,6 +46,7 @@ body {
 }
 
 .btn {
+  font-family: fantasy;
   width: 150px;
   margin: 0 auto;
   display: block;
