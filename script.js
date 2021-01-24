@@ -88,6 +88,7 @@ function HumanPlayer(board) {
     }
 
     function handleTurnTaken(event) {
+        if(event.triger.innerText !== '') return;
         event.target.innerText = 'X';
         board.positions.forEach(el => el.removeEventListener('click', handleTurnTaken));    
     }
