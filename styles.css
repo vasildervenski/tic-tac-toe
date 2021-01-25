@@ -41,7 +41,7 @@ body {
   border-right: 10px solid black;
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
   100% {
     transform: rotate(1turn);
   }
@@ -80,7 +80,7 @@ body {
   height: calc(100% - 12px);
   background: white;
   border-radius: 5px;
-}
+} */
 
 
 .winner {
